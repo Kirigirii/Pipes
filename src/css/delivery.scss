@@ -1,0 +1,36 @@
+.delivery{
+  padding: 82px 0 226px;
+  background: url("../images/delivery/bg.png") center/cover no-repeat;
+  position: relative;
+  &__title{
+    @include text(600, 48px, 59px, #fff);
+    text-align: center;
+    margin-bottom: 36px;
+  }
+  &__box{
+    border: 3px solid #FFFFFF;
+    width: 560px;
+    height: 297px;
+    text-align: center;
+    margin: 0 auto 90px;
+    &-title{
+      @include text(600, 26px, 32px, #fff);
+      margin: 54px 0 56px;
+    }
+    &-text{
+      @include text(600, 18px, 22px, #fff);
+    }
+  }
+  &__btn{
+    width: 254px;
+    height: 69px;
+    @include text(600, 20px, 24px, #fff);
+    background: linear-gradient(0deg, rgba(135, 212, 255, 0.2), rgba(135, 212, 255, 0.2)), #2160B6;
+    cursor: pointer;
+    border: none;
+    position: absolute;
+    left: 50%;
+    bottom: 67px;
+    transform: translate(-50%);
+  }
+}

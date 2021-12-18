@@ -1,0 +1,16 @@
+.footer{
+  padding: 43px 0;
+  background-color: #C4C4C4;
+  .container{
+    position: relative;
+  }
+  &__content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__logo{
+    position: absolute;
+    left: 0;
+  }
+}

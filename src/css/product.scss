@@ -1,0 +1,25 @@
+.product{
+  padding-bottom: 208px;
+  &__title {
+    @include text(600, 48px, 59px, #000);
+    text-align: center;
+    margin-bottom: 38px;
+  }
+  &__content{
+    display: flex;
+    justify-content: space-between;
+    &-box{
+      display: flex;
+      flex-direction: column;
+      border: 1px solid black;
+      width: 210px;
+      height: 264px;
+      justify-content: space-around;
+      align-items: center;
+    }
+    &-title{
+      @include text(600, 20px, 24px, #000);
+      text-align: center;
+    }
+  }
+}

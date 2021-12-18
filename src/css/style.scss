@@ -1,0 +1,30 @@
+@import "../fonts/monserat1/stylesheet.css";
+@import "enhancers";
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+}
+.container{
+  width: 100%;
+  max-width: 1390px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.map_icon{
+  border-radius: 50%;
+}
+@import "button";
+@import "overlay";
+@import "header";
+@import "home";
+@import "company";
+@import "product";
+@import "delivery";
+@import "partner";
+@import "contact";
+@import "footer";

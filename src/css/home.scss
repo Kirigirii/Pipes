@@ -1,0 +1,39 @@
+.home{
+  padding: 169px 0 298px ;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/home/bg.png);
+  position: relative;
+  overflow: hidden;
+  &::before{
+    content: '';
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 317px;
+    background: #fff;
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+    position: absolute;
+    z-index: 2;
+  }
+  &__title{
+    @include text(bold, 48px, 59px, #fff);
+    margin-bottom: 43px;
+  }
+  &__img-third{
+    position: absolute;
+    top: 158px;
+    right: 0;
+    transform: rotate(0.79deg);
+  }
+  &__img-first{
+    position: absolute;
+    top: 99px;
+    right: 87px;
+    z-index: 3;
+  }
+  &__img-second{
+    position: absolute;
+    top: 402px;
+    right: 370px;
+    z-index: 3;
+  }
+}

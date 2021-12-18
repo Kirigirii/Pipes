@@ -1,0 +1,12 @@
+.partner{
+  padding: 183px 0 243px;
+  &__title{
+    @include text(600, 48px, 59px, #000);
+   text-align: center;
+    margin-bottom: 89px;
+  }
+  &__content{
+    display: flex;
+    justify-content: space-between;
+  }
+}

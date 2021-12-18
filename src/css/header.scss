@@ -1,0 +1,36 @@
+.header{
+  padding: 28px 0 37px;
+  &__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__list{
+    display: flex;
+    column-gap: 38px;
+  }
+  &__link, &__phone-num{
+    @include text( 500, 20px, 24px, #000);
+  }
+  &__contact{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+  }
+  &__phone{
+    display: flex;
+    align-items: center;
+    column-gap: 2px;
+    justify-content: flex-end;
+    &-icon{
+      &_phone{
+        width: 21px;
+        height: 21px;
+      }
+      &_whats{
+        width: 39px;
+        height: 39px;
+      }
+    }
+  }
+}

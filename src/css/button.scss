@@ -1,0 +1,8 @@
+.btn{
+  width: 254px;
+  height: 69px;
+  @include text(600, 20px, 24px, #fff);
+  background: linear-gradient(0deg, rgba(135, 212, 255, 0.2), rgba(135, 212, 255, 0.2)), #2160B6;
+  cursor: pointer;
+  border: none;
+}

@@ -1,0 +1,19 @@
+.company{
+  padding: 66px 0 122px;
+  &__title{
+    @include text(600, 48px, 59px, #000);
+    text-align: center;
+    margin-bottom: 56px;
+  }
+  &__content{
+    display: flex;
+    column-gap: 70px;
+    &-text{
+      @include text(500, 20px, 24px, #000);
+    }
+    &-img{
+      width: 625px;
+      height: 344px;
+    }
+  }
+}
